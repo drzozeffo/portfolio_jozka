@@ -1,11 +1,9 @@
-import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 import agroabsolwent from "../../images/agroabsolwent.jpg"
 import dyson from "../../images/dyson.jpg"
 import kokos from "../../images/kokos.jpg"
 import mlodziInnowacyjni from "../../images/mlodzi_innowacyjni.jpg"
-import mein from "../../images/mein.jpg"
 
 const Header = styled.div`
   background-color: whitesmoke;

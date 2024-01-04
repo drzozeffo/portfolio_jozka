@@ -57,19 +57,11 @@ const Serif = styled.span`
   font-size: 23px;
 `;
 
-const Header = styled.div`
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: bold;
-`;
-
 const Achievements = styled.div`
   background-color: #d8dce3;
   background-image: url(${robocolobee});
   background-repeat: no-repeat;
-  background-size: 450px;
+  background-size: 500px;
   background-blend-mode: soft-light;
   @media (min-width: 1000px) {
     border-radius: 25px;
@@ -102,15 +94,14 @@ export const Home = () => (
       <p>Jest wicemistrzem krajowym konkursu <strong>James Dyson Award 2022</strong>, 
       zdobywcą I nagrody w kategorii Mistrz Innowacji w <strong>Konkursie Konstrukcji Studenckich KoKoS</strong>, 
       I nagrody w konkursie prac inżynierskich <strong>Młodzi Innowacyjni</strong> i laureatem 3. miejsca w konkursie <strong>AgroAbsolwent</strong>.
-      Za wybitne osiągnięcia został uhonorowany <strong>Stypendium Ministra Edukacji i Nauki – Najlepsi z Najlepszych! 4.0</strong> oraz
+      Za wybitne osiągnięcia został uhonorowany <strong>Stypendium Ministra Edukacji i Nauki</strong> oraz
       nominowany przez Kurier Poranny w plebiscycie <strong>Osobowość Roku</strong> w kategorii Nauka.</p>
 
       <p>W ramach działalności w <strong>Kole Naukowym Robotyków</strong> zdobył liczne wyróżnienia w Polsce
       (1. miejsce na turnieju <strong>Robotic Tournament</strong>, 3. miejsce na zawodach robotów <strong>SumoChallenge</strong>) 
       oraz reprezentował Polskę na arenie międzynarodowej: na Litwie (3. miejsce na <strong>Robotiadzie</strong>), w Rumunii (3. miejsce na <strong>RobotChallenge</strong>),
-      Estonii i Japonii.
-
-      Jest również współautorem dwóch artykułów naukowych na temat wykorzystania czujników w robotach mobilnych.</p>
+      Estonii i Japonii. Był wykonawcą w projekcie Ministerstwa Edukacji i Nauki <strong>Najlepsi z Najlepszych! 4.0</strong> mającego na celu wdrażanie, rozwój i popularyzację innowacyjnych rozwiązań w autonomicznych robotach mobilnych.
+      Jest również współautorem dwóch artykułów naukowych z robotyki.</p>
     </Achievements>
 
     {/* <Header><p>Zainteresowania</p></Header>

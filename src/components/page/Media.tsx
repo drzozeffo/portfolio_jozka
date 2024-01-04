@@ -7,14 +7,18 @@ import kokos from "../../images/kokos.jpg"
 import mlodziInnowacyjni from "../../images/mlodzi_innowacyjni.jpg"
 import mein from "../../images/mein.jpg"
 
+const Wrapper = styled.div`
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+`
+
 const Header = styled.div`
-  background-color: whitesmoke;
-  text-align: center;
-  justify-content: center;
-  text-transform: uppercase;
-  font-size: 13px;
+  font-size: 32px;
   font-weight: bold;
-  padding-top: 25px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
 `
 
 const Row = styled.div`
@@ -86,7 +90,7 @@ const StyledLink = styled.a`
 `
 
 export const Media = () => (
-  <div>
+  <Wrapper>
     <Header><p>Media</p></Header>
     <Row>
     <Post>
@@ -235,5 +239,5 @@ export const Media = () => (
         </Button>
       </Post>
     </Row>
-  </div>
+  </Wrapper>
 )
