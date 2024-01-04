@@ -1,14 +1,8 @@
 import styled from "styled-components";
-import { Projects } from "./Projects";
 import { Media } from "./TopMedia";
 
 import jozef from "../../images/jozef_aligned.png"
 import robocolobee from "../../images/robocolobee.png"
-
-// import RobotIcon from "@mui/icons-material/PrecisionManufacturing";
-// import ComputerIcon from '@mui/icons-material/Computer';
-// import TerminalIcon from '@mui/icons-material/Terminal';
-// import PsychologyIcon from '@mui/icons-material/Psychology';
 
 const Wrapper = styled.div`
   display: flex;
@@ -77,64 +71,15 @@ const Achievements = styled.div`
   background-repeat: no-repeat;
   background-size: 450px;
   background-blend-mode: soft-light;
-  padding: 30px;
-  font-family: 'Noto Serif', serif;
-  font-size: 18px;
   @media (min-width: 1000px) {
     border-radius: 25px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
   }
+  padding: 30px;
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
   margin-bottom: 30px;
-`
-
-// const Hobbies = styled.div`
-//   @media (max-width: 1000px) {
-//     display: block;
-//   }
-//   @media (min-width: 1000px) {
-//     display: flex;
-//   } 
-//   align-items: center;
-//   justify-content: space-around;
-//   margin-right: auto;
-//   margin-left: auto;
-//   margin-bottom: 25px;
-// `;
-
-// const HobbyRow = styled.div`
-//   @media (max-width: 500px) {
-//     display: block;
-//   }
-//   @media (min-width: 500px) {
-//     display: flex;
-//   } 
-//   max-width: 500px;
-// `;
-
-// const Hobby = styled.div`
-//   text-align: center;
-//   width: 250px;
-// `;
-
-// const Robot = styled(RobotIcon)`
-//   transform: scale(1.5);
-//   margin: 15px;
-// `;
-
-// const Terminal = styled(TerminalIcon)`
-//   transform: scale(1.5);
-//   margin: 15px;
-// `;
-
-// const Computer = styled(ComputerIcon)`
-//   transform: scale(1.5);
-//   margin: 15px;
-// `;
-
-// const Psychology = styled(PsychologyIcon)`
-//   transform: scale(1.5);
-//   margin: 15px;
-// `;
+`;
 
 export const Home = () => (
   <Wrapper>
@@ -154,11 +99,11 @@ export const Home = () => (
     </IntroWrapper>
 
     <Achievements>
-      {/* <img src={robocolobee} height="400px" /> */}
       <p>Jest wicemistrzem krajowym konkursu <strong>James Dyson Award 2022</strong>, 
       zdobywcą I nagrody w kategorii Mistrz Innowacji w <strong>Konkursie Konstrukcji Studenckich KoKoS</strong>, 
       I nagrody w konkursie prac inżynierskich <strong>Młodzi Innowacyjni</strong> i laureatem 3. miejsca w konkursie <strong>AgroAbsolwent</strong>.
-      Za wybitne osiągnięcia w latach 2019-2020 został uhonorowany <strong>Stypendium Ministra Edukacji i Nauki – Najlepsi z Najlepszych! 4.0.</strong></p>
+      Za wybitne osiągnięcia został uhonorowany <strong>Stypendium Ministra Edukacji i Nauki – Najlepsi z Najlepszych! 4.0</strong> oraz
+      nominowany przez Kurier Poranny w plebiscycie <strong>Osobowość Roku</strong> w kategorii Nauka.</p>
 
       <p>W ramach działalności w <strong>Kole Naukowym Robotyków</strong> zdobył liczne wyróżnienia w Polsce
       (1. miejsce na turnieju <strong>Robotic Tournament</strong>, 3. miejsce na zawodach robotów <strong>SumoChallenge</strong>) 

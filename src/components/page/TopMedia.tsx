@@ -14,7 +14,6 @@ const Header = styled.div`
   text-transform: uppercase;
   font-size: 13px;
   font-weight: bold;
-  padding-top: 25px;
 `
 
 const Row = styled.div`
@@ -95,6 +94,9 @@ export const Media = () => (
         <ImgLink href="https://pb.edu.pl/sukcesy/inz-jozef-szymelewicz-nagrodzony-w-konkursie-agroabsolwent/" target="_blank">
           <Img src={agroabsolwent}></Img>
         </ImgLink>
+        <p>
+        Józef Szymelewicz, absolwent studiów inżynierskich na kierunku automatyka i robotyka, zdobył trzecie miejsce ex aequo oraz nagrodę specjalną firmy Farm Frites Poland S.A. w konkursie Agroabsolwent na najlepszą pracę na temat nowoczesnego rolnictwa i przetwórstwa rolno-spożywczego. Konkurs od czterech lat organizowany jest przez Bank BNP Paribas we współpracy z Polskim Stowarzyszeniem Rolnictwa Zrównoważonego „ASAP”.
+        </p>
         <Button>
           <StyledLink href="https://pb.edu.pl/sukcesy/inz-jozef-szymelewicz-nagrodzony-w-konkursie-agroabsolwent/" target="_blank">Czytaj artykuł</StyledLink>
         </Button>
@@ -107,6 +109,9 @@ export const Media = () => (
         <ImgLink href="https://we.pb.edu.pl/osiagniecia/inz-jozef-szymelewicz-wicemistrzem-w-konkursie-o-nagrode-j-dysona/" target="_blank">
           <Img src={dyson}></Img>
         </ImgLink>
+        <p>
+        Pracownik Katedry Automatyki i Robotyki dr inż. Roman Trochimczuk ma powody do dumy ze swego dyplomanta inż. Józefa Szymelewicza, absolwenta pierwszego stopnia Automatyki i robotyki Politechniki Białostockiej, który za swą pracę dyplomową inżynierską, zatytułowaną: Projekt i wykonanie robota mobilnego do usuwania Leptinotarsa decemlineata z uprawy ziemniaka, uzyskał tytuł wicemistrza krajowego w międzynarodowym konkursie o Nagrodę Jamesa Dysona. 
+        </p>
         <Button>
           <StyledLink href="https://we.pb.edu.pl/osiagniecia/inz-jozef-szymelewicz-wicemistrzem-w-konkursie-o-nagrode-j-dysona/" target="_blank">Czytaj artykuł</StyledLink>
         </Button>
@@ -121,6 +126,9 @@ export const Media = () => (
         <ImgLink href="https://we.pb.edu.pl/2022/06/10/inz-jozef-szymelewicz-mistrzem-innowacji-w-konkursie-kokos/" target="_blank">
           <Img src={kokos}></Img>
         </ImgLink>
+        <p>
+        Student Wydziału Elektrycznego i młody utalentowany konstruktor inż. Józef Szymelewicz otrzymał nagrodę specjalną „Mistrz innowacyjności” w kategorii za najbardziej innowacyjną konstrukcję, którą został robot do zwalczania stonki ziemniaczanej.
+        </p>
         <Button>
           <StyledLink href="https://we.pb.edu.pl/2022/06/10/inz-jozef-szymelewicz-mistrzem-innowacji-w-konkursie-kokos/" target="_blank">Czytaj artykuł</StyledLink>
         </Button>
@@ -133,6 +141,9 @@ export const Media = () => (
         <ImgLink href="https://we.pb.edu.pl/osiagniecia/zwyciestwo-w-konkursie-mlodzi-innowacyjni/" target="_blank">
           <Img src={mlodziInnowacyjni}></Img>
         </ImgLink>
+        <p>
+        Inż. Józef Szymelewicz zdobył I nagrodę za pracę dyplomową inżynierską pt. „Projekt i wykonanie robota mobilnego do usuwania Leptinotarsa decemlineata z uprawy ziemniaka”, której promotorem jest dr inż. Roman Trochimczuk z Katedry Automatyki i Robotyki Wydziału Elektrycznego.
+        </p>
         <Button>
           <StyledLink href="https://we.pb.edu.pl/osiagniecia/zwyciestwo-w-konkursie-mlodzi-innowacyjni/" target="_blank">Czytaj artykuł</StyledLink>
         </Button>

@@ -24,15 +24,9 @@ const Post = styled.div`
   padding-bottom: 20px;
 `;
 
-const Link2 = styled(Link)`
-  display: flex;
-  justify-content: center;
-`;
-
 const Img = styled.img`
   text-align: center;
   max-width: 100%;
-  max-height: 270px;
   margin-top: 10px;
   margin-bottom: 10px;
   height: auto;
