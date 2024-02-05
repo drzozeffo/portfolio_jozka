@@ -27,6 +27,10 @@ const Image = styled.div`
   padding-bottom: 10px;
 `;
 
+const Img = styled.img`
+  max-width: 100%;
+`;
+
 const StyledA = styled.a`
   text-decoration: none;
   font-weight: bold;
@@ -44,7 +48,7 @@ export const AboutMe = () => (
     <p>Nazywam się Józef Szymelewicz. Mam 25 lat i mieszkam na Suwalszczyźnie nieopodal granicy z Litwą. Jestem absolwentem Automatyki i Robotyki na Politechnice Białostockiej. Jako student, judoka, akordeonista, stypendysta ministra i członek Koła Naukowego Robotyków miałem okazję realizować wiele różnych pasji. Każde z tych zajęć nauczyło mnie cennych lekcji i pomogło mi stać się osobą, którą jestem dzisiaj.</p>
     
     <Image>
-      <img src={enface} width="480px" />
+      <Img src={enface} width="480px" />
       <p>Odbiór nagrody "Mistrz innowacji", Kraków 2022.</p>
     </Image>
     
@@ -60,7 +64,7 @@ export const AboutMe = () => (
       Niejednokrotnie akordeon służył mi jako „narzędzie pracy”, gdy pogrywałem wieczorami na rynku pod katedrą, żeby zasilić studencką kieszeń 😊, a czasem na wypustach weselnych.</p>
     
     <Image>
-      <img src={lego} width="600px" />
+      <Img src={lego} width="600px" />
       <p>Roboty sumo i ich twórcy.</p>
     </Image>
 
