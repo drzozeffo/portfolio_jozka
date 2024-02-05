@@ -40,7 +40,7 @@ export const Robocolobee = () => (
       <li>Wicemistrz etapu krajowego konkursu James Dyson Award 2022</li>
       <li>3. miejsce w konkursie AgroAbsolwent organizowanym przez BNP Paribas Bank Polska</li>
       <li>I nagroda w kategorii Mistrz Innowacji w konkursie Konstrukcji Studenckich KoKoS organizowanym przez NZS przy AGH w Krakowie</li>
-      <li>I nagroda w konku`rsie prac inżynierskich w konkursie Młodzi Innowacyjni organizowanym przez Łukasiewicz Przemysłowy Instytut Automatyki i Pomiarów</li>
+      <li>I nagroda w konkursie prac inżynierskich w konkursie Młodzi Innowacyjni organizowanym przez Łukasiewicz Przemysłowy Instytut Automatyki i Pomiarów</li>
     </UnorderedList>
   </Wrapper>
 );

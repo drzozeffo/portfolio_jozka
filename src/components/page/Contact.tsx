@@ -42,11 +42,12 @@ const Img = styled.img`
 
 export const Contact = () => (
   <Wrapper>
-    <Header>Kontakt</Header>
+    <Header><p>Kontakt</p></Header>
     <div>
       <Column>
-      <p></p>
-      <p>E-mail: j.szym7334@gmail.com</p>
+      <p>Jeśli jesteś zainteresowany współtworzeniem innowacyjnego start-upu wdrażającego technologie w rolnictwie ekologicznym 
+        lub chcesz po prostu nawiązać kontakt wyślij wiadomość na adres e-mail:</p>
+      <p><b>j.szym7334@gmail.com</b></p>
       </Column>
       <Image>
         <Img src={Display} width="600px" />
