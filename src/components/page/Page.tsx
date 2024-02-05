@@ -6,6 +6,7 @@ import { Projects } from "./Projects";
 import { Media } from "./Media";
 import { Contact } from "./Contact";
 import { Robocolobee } from "../posts/Robocolobee";
+import { Oil } from "../posts/Oil";
 
 const Wrapper = styled.div`
   background-color: whitesmoke;
@@ -22,6 +23,7 @@ export const Page = () => (
       <Route path="/contact" element={<Contact />} />
 
       <Route path="/robocolobee" element={<Robocolobee />} />
+      <Route path="/oil" element={<Oil />} />
     </Routes>
   </Wrapper>
 );

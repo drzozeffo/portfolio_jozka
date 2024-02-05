@@ -24,26 +24,12 @@ const Tab = styled(Link)`
   };
 `;
 
-const TabA = styled.a`
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  padding: 10px;
-
-  &:hover, &:focus, &:active {
-    color: lightgreen;
-  };
-`;
-
 export const Navbar = () => (
   <Wrapper>
     <Tab to="/home">Strona główna</Tab>
     <Tab to="/about-me">O mnie</Tab>
     <Tab to="/projects">Projekty</Tab>
     <Tab to="/media">Media</Tab>
-    <TabA href="https://drive.google.com/file/d/1slwZwt2zNJ8UnQsN2taZAUVm_foCcCae/view?usp=sharing" target="blank">
-      CV
-    </TabA>
     <Tab to="/contact">Kontakt</Tab>
   </Wrapper>
 );

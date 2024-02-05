@@ -77,3 +77,7 @@ export const Serif = styled.span`
   font-size: 18px;
   margin-bottom: 20px;
 `;
+
+export const UnorderedList = styled.ul`
+  text-align: left;
+`;

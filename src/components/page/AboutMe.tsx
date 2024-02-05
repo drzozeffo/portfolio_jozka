@@ -1,9 +1,9 @@
-import styled from "styled-components"
-import { Link } from "react-router-dom"
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-import enface from "../../images/enface.jpg"
-import lego from "../../images/lego.jpg"
-import kokos2 from "../../images/kokos2.jpg"
+import enface from "../../images/enface.jpg";
+import lego from "../../images/lego.jpg";
+import kokos2 from "../../images/kokos2.jpg";
 
 const Wrapper = styled.div`
   display: flex;
@@ -13,35 +13,35 @@ const Wrapper = styled.div`
   margin-right: auto;
   text-align: justify;
   padding: 10px 10px 30px 10px;
-`
+`;
 
 const Header = styled.div`
   font-size: 32px;
   font-weight: bold;
   text-align: left;
-`
+`;
 
 const Image = styled.div`
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-`
+`;
 
 const StyledA = styled.a`
   text-decoration: none;
   font-weight: bold;
-`
+`;
 
 const StyledLink = styled(Link)`
   text-decoration: none;
   font-weight: bold;
-`
+`;
 
 export const AboutMe = () => (
   <Wrapper>
     <p><Header>O mnie</Header></p>
 
-    <p>Nazywam się Józef Szymelewicz. Mam 25 lat i pochodzę z niewielkiej wsi Szypliszki nieopodal granicy z Litwą. Jestem absolwentem Automatyki i Robotyki na Politechnice Białostockiej. Jako student, judoka, akordeonista, stypendysta ministra i członek Koła Naukowego Robotyków miałem okazję realizować wiele różnych pasji. Każde z tych zajęć nauczyło mnie cennych lekcji i pomogło mi stać się osobą, którą jestem dzisiaj.</p>
+    <p>Nazywam się Józef Szymelewicz. Mam 25 lat i mieszkam na Suwalszczyźnie nieopodal granicy z Litwą. Jestem absolwentem Automatyki i Robotyki na Politechnice Białostockiej. Jako student, judoka, akordeonista, stypendysta ministra i członek Koła Naukowego Robotyków miałem okazję realizować wiele różnych pasji. Każde z tych zajęć nauczyło mnie cennych lekcji i pomogło mi stać się osobą, którą jestem dzisiaj.</p>
     
     <Image>
       <img src={enface} width="480px" />

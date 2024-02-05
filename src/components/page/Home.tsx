@@ -1,8 +1,13 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { Media } from "./TopMedia";
 
-import jozef from "../../images/jozef_aligned.png"
-import robocolobee from "../../images/robocolobee.png"
+import jozef from "../../images/jozef_aligned.png";
+import robocolobee from "../../images/robocolobee.png";
+
+import AgricultureIcon from '@mui/icons-material/Agriculture';
+import WaterDropIcon from '@mui/icons-material/WaterDrop';
+import NightShelterIcon from '@mui/icons-material/NightShelter';
 
 const Wrapper = styled.div`
   display: flex;
@@ -73,6 +78,58 @@ const Achievements = styled.div`
   margin-bottom: 30px;
 `;
 
+const Header = styled.div`
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+`;
+
+const Hobbies = styled.div`
+  @media (max-width: 1000px) {
+    display: block;
+  }
+  @media (min-width: 1000px) {
+    display: flex;
+  } 
+  align-items: center;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+`;
+
+const Hobby = styled.div`
+  text-align: center;
+  width: 300px;
+`;
+
+const Agriculture = styled(AgricultureIcon)`
+  transform: scale(1.5);
+  margin: 15px;
+`;
+
+const WaterDrop = styled(WaterDropIcon)`
+  transform: scale(1.5);
+  margin: 15px;
+`;
+
+const NightShelter = styled(NightShelterIcon)`
+  transform: scale(1.5);
+  margin: 15px;
+`;
+
+const StyledA = styled.a`
+  text-decoration: none;
+  font-weight: bold;
+`;
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  font-weight: bold;
+`;
+
 export const Home = () => (
   <Wrapper>
     <IntroWrapper>
@@ -104,33 +161,32 @@ export const Home = () => (
       Jest również współautorem dwóch artykułów naukowych z robotyki.</p>
     </Achievements>
 
-    {/* <Header><p>Zainteresowania</p></Header>
+    <Header><p>Przedsięwzięcia</p></Header>
     <Hobbies>
-      <HobbyRow>
         <Hobby>
-          <Robot />
-          <p><h5>Robotics</h5></p>
-          <p>Manipulators, autonomous <br/>mobile robots, controllers</p>
+          <Agriculture />
+          <p><h5>Colobee Solutions</h5></p>
+          <p>
+            Start-up wdrażający technologie<br/>w rolnictwie ekologicznym<br/>
+            <StyledA href="https://www.colobee-solutions.com">Zobacz ofertę</StyledA>
+          </p>
         </Hobby>
         <Hobby>
-          <Terminal />
-          <p><h5>Artificial Intelligence</h5></p>
-          <p>Neural networks, unsupervised <br/>and reinforcement learning</p>
-        </Hobby>
-      </HobbyRow>
-      <HobbyRow>
-        <Hobby>
-          <Computer />
-          <p><h5>Computer Vision</h5></p>
-          <p>Image and video processing, <br/>object recognition</p>
+          <WaterDrop />
+          <p><h5>Sprzedaż oleju lnianego</h5></p>
+          <p>
+            Sprzedaż oleju lnianego<br/>własnego tłoczenia<br/>
+            <StyledLink to="/oil">Zobacz ofertę</StyledLink></p>
         </Hobby>
         <Hobby>
-          <Psychology />
-          <p><h5>Psychology</h5></p>
-          <p>Cognitive science, neurobiology, theory of mind</p>
+          <NightShelter />
+          <p><h5>Ośrodek wypoczynkowy</h5></p>
+          <p>
+            Wynajem domu wczasowego<br/>na Suwalszczyźnie<br/>
+            <StyledA href="https://www.rybalnia5.fajnespanie.pl/?i=1">Zobacz ofertę</StyledA>
+          </p>
         </Hobby>
-      </HobbyRow>
-    </Hobbies> */}
+    </Hobbies>
 
     <Media />
 

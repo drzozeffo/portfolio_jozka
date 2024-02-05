@@ -32,11 +32,13 @@ const Row = styled.div`
 const Post = styled.div`
   max-width: 480px;
   padding: 20px;
+  text-align: justify;
 `
 
 const Title = styled.div`
   font-size: 20px;
   font-weight: bold;
+  text-align: left;
 `
 
 const Img = styled.img`
