@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import enface from "../../images/enface.jpg";
 import lego from "../../images/lego.jpg";
 import kokos2 from "../../images/kokos2.jpg";
+import judo from "../../images/judo.jpg";
+
 
 const Wrapper = styled.div`
   display: flex;
@@ -45,42 +47,55 @@ export const AboutMe = () => (
   <Wrapper>
     <p><Header>O mnie</Header></p>
 
-    <p>Nazywam się Józef Szymelewicz. Mam 25 lat i mieszkam na Suwalszczyźnie nieopodal granicy z Litwą. Jestem absolwentem Automatyki i Robotyki na Politechnice Białostockiej. Jako student, judoka, akordeonista, stypendysta ministra i członek Koła Naukowego Robotyków miałem okazję realizować wiele różnych pasji. Każde z tych zajęć nauczyło mnie cennych lekcji i pomogło mi stać się osobą, którą jestem dzisiaj.</p>
+    <p>Nazywam się Józef Szymelewicz. Mam 25 lat i mieszkam na Suwalszczyźnie nieopodal granicy z Litwą.</p>
     
     <Image>
       <Img src={enface} width="480px" />
       <p>Odbiór nagrody "Mistrz innowacji", Kraków 2022.</p>
     </Image>
     
-    <p>Jeśli mowa o osobowości trudno jest nie wspomnieć o pięknej sprawie jaką jest judo, które odkryłem na początku studiów. 
-      Judo bardzo pozytywnie wpłynęło na kształtowanie mojej osobowości i charakteru. Poprzez udział w treningach i zawodach nauczyłem się pokonywać najtrudniejsze wyzwania i nigdy się nie poddawać, nawet w obliczu porażki. 
-      Również uczyłem się dyscypliny i szacunku do drugiego człowieka. Judo pomogło mi przetrwać natłok zajęć na studiach redukując nagromadzony stres i pozwalając na opanowanie emocji. 
-      Ciężko nie zaakcentować oczywiście poprawy i utrzymania sprawności fizycznej całego ciała, jakże ważnej przy pracy naukowej! W zdrowym ciele zdrowy duch. 
-      Umiejętności nabyte na Judo takie jak pokonywanie słabości, wyznaczanie sobie celów i wytrwałość pomogły mi nie tylko na macie ale we wszystkich aspektach mojego życia. 
-      Przynależność do tak wspaniałego środowiska jakim jest Klub Judo Politechniki Białostockiej daje mi wiele radości i satysfakcji. Póki co nie znam lepszej sztuki walki niż judo, którą można uprawiać bez ryzyka uszczerbku na zdrowiu swoim oraz osoby, z którą trenujemy i walczymy.</p>
-    
-    <p>Oprócz judo moja pasja do muzyki, a konkretnie do akordeonu, pozwoliła mi wyrazić siebie twórczo i emocjonalnie. Akordeon pomógł mi również rozwinąć koordynację i zręczność, które są niezbędne zarówno do grania melodii, jak i do rywalizacji w judo czy też w pracy naukowej, podczas budowania konstrukcji robotów. 
-      Zawsze miałem akordeon „pod ręka” w moim pokoju w akademiku, żeby czasem po prostu pograć i odpocząć od pracy naukowej, co jest również ważną kwestią. „Mobilność” akordeonu i jego doniosły dźwięk pozwoliły mi też umilić czyjeś urodziny i inne uroczystości. 
-      Niejednokrotnie akordeon służył mi jako „narzędzie pracy”, gdy pogrywałem wieczorami na rynku pod katedrą, żeby zasilić studencką kieszeń 😊, a czasem na wypustach weselnych.</p>
+    <header>
+    <h2>Judo</h2>
+    </header>
+
+    <p>Tę niesamowitą sztukę walki odkryłem na początku studiów. Panowanie nad ciałem, fizyka ruchu, fizyczny kontakt z UKE (partner do ćwiczeń), kształcenie charakteru, ogromna ilość mądrości życiowej przekazywana przez trenera Piotra Klimowicza. Jednym słowem uczta dla ciała, umysłu i ducha. Umiejętności nabyte na Judo pomogły mi nie tylko na macie ale przede wszystkim w życiu. Przynależność do tak wspaniałego środowiska jakim jest Klub Judo Politechniki Białostockiej dała mi wiele dobrego. Póki co nie znam lepszej sztuki walki niż judo. Oprócz tego, że jest dużo mniej kontuzyjnym sportem niż piłka nożna, to można ćwiczyć bez uszkadzania osoby z którą trenujemy i walczymy.</p>
+
+    <Image>
+      <Img src={judo} width="480px" />
+      <p>Udział w XIV mistrzostwach Politechniki Białostockiej w Judo.</p>
+    </Image>
+       
+    <header>
+    <h2>Koło Naukowe Robotyków</h2>
+    </header>
+
+    <p>Jestem wdzięczny społeczności Koła Naukowegp Robotyków działającego na naszej uczelni, że podczas studiów miałem możliwość realizowania się jako konstruktor robotów, za dostęp do zasobów i wsparcia niezbędnego do osiągania sukcesów w tej dziedzinie. Mogłem brać udział w międzynarodowych zawodach robotów w Polsce i za granicą, w krajach takich jak Litwa, Rumunia, a nawet Japonia. Jestem głęboko wdzięczny za tę możliwość, bo dało mi to szansę na poznanie innych studentów z reszty świata i ich kultur z czego największe wrażenie zrobiła na mnie kultura Japońska. Podczas budowy robotów napisałem wspólnie z moimi kolegami 2 artykuły naukowe. </p>
     
     <Image>
       <Img src={lego} width="600px" />
       <p>Roboty sumo i ich twórcy.</p>
     </Image>
 
-    <p>Jako <StyledA href="https://pb.edu.pl/sukcesy/stypendium-ministra-dla-naszego-studenta/" target="_blank">stypendysta ministra</StyledA> jestem wdzięczny Kołu Naukowemu Robotyków działającemu na naszej uczelni, że miałem możliwość realizowania się jako konstruktor robotów, za dostęp do zasobów i wsparcia niezbędnego do osiągania sukcesów w tej dziedzinie. 
-      Tymi sukcesami były napisane wspólnie z moimi kolegami opublikowane w czasopismach naukowych i wygłaszane na konferencjach artykuły naukowe oraz możliwość udziału w międzynarodowych zawodach robotów w Polsce i za granicą, w krajach takich jak Litwa, Rumunia, a nawet Japonia. 
-      Jestem głęboko wdzięczny za tę możliwość, bo dało mi to szansę na poznanie innych studentów z reszty świata i ich kultur z czego największe wrażenie zrobiła i w dalszym ciągu robi na mnie kultura japońska.</p>
+    <header>
+    <h2>Robot do zwalczania stonki ziemniaczanej</h2>
+    </header>
+
+    <p>
+    Prototyp <StyledLink to="/robocolobee">robota</StyledLink> zbudowałem w ramach pracy dyplomowej inżynierskiej. Cieszę się z uznania mojego wynalazku wyrażonego w otrzymanych wyróżnieniach na różnych konkursach, z czego największym wyróżnieniem jest tytuł wicemistrza krajowego w konkursie o Nagrodę Jamesa Dysona, ale też i nagroda w konkursie KoKoS, Młodzi Innowacyjni oraz Agroabsolwent. Projekt robota powstał w odpowiedzi na potrzebę pozbycia się problemu stonki ziemniaczanej w naszym ekologicznym gospodarstwie rolnym i pomimo prostej konstrukcji, jego temat był poprzedzony bardzo czasochłonnym badaniem obecnego stanu nauki.
+    </p>
     
-    <p>Jako autor <StyledLink to="/robocolobee">robota</StyledLink> do zbierania stonki ziemniaczanej, którego prototyp zbudowałem w ramach pracy dyplomowej inżynierskiej, cieszę się z uznania mojego wynalazku wyrażonego w otrzymanych wyróżnieniach na różnych konkursach, 
-    z czego największym wyróżnieniem jest tytuł wicemistrza krajowego w konkursie o <StyledA href="https://we.pb.edu.pl/osiagniecia/inz-jozef-szymelewicz-wicemistrzem-w-konkursie-o-nagrode-j-dysona/" target="_blank">Nagrodę Jamesa Dysona</StyledA>. Projekt robota powstał w odpowiedzi na potrzebę pozbycia się problemu stonki ziemniaczanej w naszym ekologicznym gospodarstwie rolnym.</p>
-    
-    <p>Poprzez wolontariat i mentoring mogłem nie tylko nabywać ale i dzielić się swoją wiedzą i doświadczeniem z innymi oraz pomagać im w realizacji własnych pasji. Podsumowując, moje doświadczenia jako judoki, akordeonisty, stypendysty ministra i członka Koła Naukowego Robotyków dały mi cenne lekcje i pomogły mi stać się osobą, którą jestem dzisiaj. 
-      Jestem wdzięczny za możliwości, które miałem i nie mogę się doczekać kontynuowania moich pasji w przyszłości.</p>
     <Image>
       <img src={kokos2} width="600px" />
       <p>Ceremonia rozdania nagród konkursu KOKOS, Kraków 2022.</p>
     </Image>
+
+    <header>
+    <h2>Czas wolny</h2>
+    </header>
+    
+    <p>
+    Zawsze miałem akordeon „pod ręka” w moim pokoju w akademiku, żeby czasem po prostu pograć i odpocząć od nauki. „Mobilność” akordeonu i jego doniosły dźwięk pozwoliły mi też umilić czyjeś urodziny i inne uroczystości. Czasem akordeon służył mi jako narzędzie prac. Grywałem wieczorami na rynku pod katedrą, a czasem na wypustach weselnych.
+    </p>
 
     <p><b>Współtworzone publikacje:</b></p>
     <ul>
