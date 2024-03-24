@@ -47,7 +47,7 @@ export const Contact = () => (
       <Column>
       <p>Jeśli jesteś zainteresowany współtworzeniem innowacyjnego start-upu wdrażającego technologie w rolnictwie ekologicznym 
         lub chcesz po prostu nawiązać kontakt wyślij wiadomość na adres e-mail:</p>
-      <p><b>j.szym7334@gmail.com</b></p>
+      <p><b>jozef.szymelewicz@gmail.com</b></p>
       </Column>
       <Image>
         <Img src={Display} width="600px" />

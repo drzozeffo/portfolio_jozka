@@ -168,7 +168,7 @@ export const Home = () => (
           <p><h5>Colobee Solutions</h5></p>
           <p>
             Start-up wdrażający technologie<br/>w rolnictwie ekologicznym<br/>
-            <StyledA href="https://www.colobee-solutions.com">Zobacz ofertę</StyledA>
+            <StyledLink to="/robocolobee">Zobacz ofertę</StyledLink>
           </p>
         </Hobby>
         <Hobby>
